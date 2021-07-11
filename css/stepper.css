@@ -112,13 +112,13 @@ input:focus, select:focus {
     border-radius: 4px;
 }
 
-#flightBook .form-control:[type="date"] {
+#flightBook .form-control[type="date"] {
     width: 100%;
 	min-width: 230px;
 }
 
 @media screen and (min-width: 430px) {
-    #flightBook .form-control:[type="date"] {
+    #flightBook .form-control[type="date"] {
         min-width: 100%;
     }
 }
